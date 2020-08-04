@@ -7,7 +7,6 @@ import java.util.List;
 //这个接口是与Mapping连接的接口，由StudentDaoImpl去具体实现
 public interface StudentDao {
      List<Student> getAll();
-     int A = 200;
      int b=300;
     public Student selectStudents(String id);
 
