@@ -9,6 +9,7 @@ public interface StudentDao {
      List<Student> getAll();
      int b=300;
      int c=800;
+     int a=400;
     public Student selectStudents(String id);
 
     public void insertStudent(Student stu);
