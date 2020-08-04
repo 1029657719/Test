@@ -8,6 +8,7 @@ import java.util.List;
 public interface StudentDao {
      List<Student> getAll();
      int b=300;
+     int c=800;
     public Student selectStudents(String id);
 
     public void insertStudent(Student stu);
